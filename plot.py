@@ -154,6 +154,7 @@ if __name__ == '__main__':
 	
 	subplot2.xaxis.set_major_formatter(FormatStrFormatter('%d mm³/s'))
 	subplot2.yaxis.set_major_formatter(FormatStrFormatter('%d mm³/s'))
+	subplot2.set_aspect(1)
 
 	subplot2.legend(loc='upper left')
 
